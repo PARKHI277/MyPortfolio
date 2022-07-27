@@ -5,7 +5,7 @@
   padding: 0;
 }
 header {
-  background: linear-gradient(#511919, #a73c3c);
+  background-color: rebeccapurple;
 }
 header section:nth-child(1),
 a,
@@ -29,13 +29,12 @@ section:nth-child(1) {
   justify-content: space-between;
   align-items: center;
   padding: 0 10%;
-  background-color: grey;
+  background: linear-gradient(yellow, orange);
 }
 .logo {
   width: 50px;
   cursor: pointer;
   padding: 5px;
-  color: white;
 }
 .navbar {
   list-style: none;
@@ -77,11 +76,11 @@ button:hover {
   padding: 5rem 0;
 }
 .home .left .image {
-  width: 60%;
-  padding: 0px 10px;
+  width: 70%;
+  /* padding:0px 10px; */
   height: 550px;
   margin: bottom 20px;
-  /* border-radius:100%; */
+  border-radius: 50%;
 }
 .home .Right {
   color: white;
@@ -91,7 +90,7 @@ button:hover {
 }
 .home p span {
   font-size: 50px;
-  color: white;
+  color: black;
 }
 .home .Right h6 {
   font-size: 1.6rem;
@@ -115,8 +114,13 @@ button:hover {
   margin-top: -7rem;
 }
 
+.A .B {
+}
+a {
+}
+
 .About {
-  background: linear-gradient(#511919, #a73c3c);
+  background-color: #80008057;
   padding: 6rem 0;
 }
 .About .aboutme {
@@ -175,16 +179,14 @@ button:hover {
 }
 
 .Education {
-  background: linear-gradient(#511919, #a73c3c);
+  background-color: rebeccapurple;
   padding: 1rem 1rem;
-  /* height: 200px; */
 }
 .Education .educ .left-1 .image {
   height: 300px;
-  width: 65%;
-  padding: 0 40px;
+  width: 50%;
+  padding: 0 30px;
   margin-bottom: 20px;
-  margin-right: 200px;
 }
 .Education h1 {
   text-align: center;
@@ -206,12 +208,12 @@ button:hover {
 
 .Acheivements h1 {
   text-align: center;
-  margin-top: 0em;
+  margin-top: 2em;
   font-size: 30px;
   font-weight: 800;
 }
 .Acheivements {
-  background: linear-gradient(#932424d4, #a73c3c);
+  background-color: #80008057;
 }
 
 .Acheivements .acheive ul {
@@ -237,7 +239,7 @@ button:hover {
   color: darkgreen;
 }
 .Acheivements .acheive ul .idethon span {
-  color: white;
+  color: saddlebrown;
 }
 .Acheivements .acheive ul li {
   text-align: center;
